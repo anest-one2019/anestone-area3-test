@@ -3,7 +3,7 @@
 body{
 	font-family:"Meiryo",sans-serif;
 	background-image : url(anestone2019_LP_haikei.jpg);
-	background-size: cover;
+	background-size : contain ;
 }
 
 .header {
