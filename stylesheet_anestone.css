@@ -3,7 +3,7 @@
 body{
 	font-family:"Meiryo",sans-serif;
 	background-image : url(anestone2019_LP_haikei.jpg);
-	background-size : contain ;
+	background-size: cover;
 }
 
 .header {
@@ -102,7 +102,7 @@ table th:after{
 table td{
   text-align: left;
   width: 70%;
-  text-align: center;
+  text-align:center;	
   background-color: #eee;
   padding: 10px 0;
 }
@@ -112,7 +112,7 @@ table td{
 
 .toiawase {
 	padding-top: 30px;
-	text-align:center	
+	text-align:center;	
 }
 
 h3 {
@@ -153,3 +153,10 @@ h3 {
 	font-size:  8px;
 }
 
+
+@media screen and ( max-width:800px ){
+	body{
+	background-image : url(anestone2019_LP_haikei.jpg);
+	background-size: contain;
+	}
+}
